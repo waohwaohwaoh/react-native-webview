@@ -80,7 +80,7 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.20"
+    implementation "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.20"
     implementation "androidx.webkit:webkit:${safeExtGet('webkitVersion')}"
 }
 
